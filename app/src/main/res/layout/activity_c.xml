@@ -5,21 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context="com.zachary.myfirstapp.CActivity">
+    tools:context="com.zachary.myfirstapp.C_Activity">
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:layout_marginBottom="20dp"
-        android:textSize="80dp"
-        android:text="醫院資訊" />
+        android:onClick="onClickA"
+        android:text="醫院資訊"
+        android:textSize="80dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:layout_marginBottom="20dp"
+        android:onClick="onClickB"
         android:textSize="80dp"
         android:text="復康巴士預約" />
 
@@ -28,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:layout_marginBottom="20dp"
+        android:onClick="onClickC"
         android:textSize="80dp"
         android:text="叫車服務" />
 </LinearLayout>

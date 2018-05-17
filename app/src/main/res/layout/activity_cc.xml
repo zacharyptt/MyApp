@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CC_Activity">
+
+
+    <Button
+        android:id="@+id/call01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="call01"
+        android:text="55688"
+        android:textSize="80dp" />
+
+    <Button
+        android:id="@+id/call02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="call02"
+        android:text="電話2"
+        android:textSize="80dp" />
+
+    <Button
+        android:id="@+id/call03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="call03"
+        android:text="電話3"
+        android:textSize="80dp" />
+
+</LinearLayout>
